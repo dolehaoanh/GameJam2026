@@ -104,7 +104,6 @@ InitTestScene*.unity*
 
 # Visual Studio Code
 .vscode/
-.vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
@@ -118,7 +117,6 @@ InitTestScene*.unity*
 
 # Cursor Editor
 .cursor/
-.cursor/*
 
 # Antigravity
 .antigravity/
