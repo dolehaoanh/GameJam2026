@@ -1,0 +1,16 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <ui:VisualElement name="MainContent" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);">
+        <ui:Label tabindex="-1" text="Save Manager" display-tooltip-when-elided="true" name="Title" style="-unity-text-align: upper-center; font-size: 30px; color: rgb(0, 221, 255);" />
+        <ui:VisualElement name="TopButtonGroup" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-direction: row; align-items: center; max-height: 30px; justify-content: center;">
+            <ui:Button text="Load Data" display-tooltip-when-elided="true" name="BtnLoadData" />
+            <ui:Button text="Save Data" display-tooltip-when-elided="true" name="BtnSaveData" />
+            <ui:Button text="Clear Data" display-tooltip-when-elided="true" name="BtnDeleteData" />
+        </ui:VisualElement>
+        <ui:Label text="    Data:" display-tooltip-when-elided="true" style="font-size: 20px;" />
+        <ui:VisualElement name="DataContent" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); align-items: auto; align-self: center;">
+            <ui:ScrollView style="width: 750px;">
+                <uie:PropertyField binding-path="_gameData" name="GameDataField" />
+            </ui:ScrollView>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

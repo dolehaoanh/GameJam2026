@@ -1,0 +1,754 @@
+fileFormatVersion: 2
+guid: f1a25da0acb9a50469e2f16ced6b60ed
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2879901022801884624
+    second: punch_recover_0
+  - first:
+      213: -9210882953757941504
+    second: punch_recover_1
+  - first:
+      213: -7725748524866808163
+    second: punch_recover_2
+  - first:
+      213: -7228245897159822680
+    second: punch_recover_3
+  - first:
+      213: -7348180101804439155
+    second: punch_recover_4
+  - first:
+      213: 5246804339357270369
+    second: punch_recover_5
+  - first:
+      213: -4639852966443933895
+    second: punch_recover_6
+  - first:
+      213: -6261682057429956379
+    second: punch_recover_7
+  - first:
+      213: 6069509849705277163
+    second: punch_recover_8
+  - first:
+      213: -893237488295337530
+    second: punch_recover_9
+  - first:
+      213: 8937285212202546201
+    second: punch_recover_10
+  - first:
+      213: -6978859141271726208
+    second: punch_recover_11
+  - first:
+      213: 6817230200094708641
+    second: punch_recover_12
+  - first:
+      213: -4018460561156473579
+    second: punch_recover_13
+  - first:
+      213: 8393733174491276037
+    second: punch_recover_14
+  - first:
+      213: 4153484435843571906
+    second: punch_recover_15
+  - first:
+      213: -7154187345591602234
+    second: punch_recover_16
+  - first:
+      213: 4967004076053089203
+    second: punch_recover_17
+  - first:
+      213: -1816767916463578466
+    second: punch_recover_18
+  - first:
+      213: -212415694835884791
+    second: punch_recover_19
+  - first:
+      213: -4130797948591509313
+    second: punch_recover_20
+  - first:
+      213: -5738065801531166148
+    second: punch_recover_21
+  - first:
+      213: 6786050984669948243
+    second: punch_recover_22
+  - first:
+      213: 4789611258516187236
+    second: punch_recover_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: punch_recover_0
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 320
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03a0c9337498808d0800000000000000
+      internalID: -2879901022801884624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punch_recover_1
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 320
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 001ae8141ce5c2080800000000000000
+      internalID: -9210882953757941504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punch_recover_2
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 321
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d96d05f36a0a8c490800000000000000
+      internalID: -7725748524866808163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punch_recover_3
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 322
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a23d9647ac10bb90800000000000000
+      internalID: -7228245897159822680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punch_recover_4
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 325
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d894a563125060a90800000000000000
+      internalID: -7348180101804439155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punch_recover_5
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 327
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1614e557fb460d840800000000000000
+      internalID: 5246804339357270369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punch_recover_6
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 222
+        width: 37
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93f111d5f4eeb9fb0800000000000000
+      internalID: -4639852966443933895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punch_recover_7
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 222
+        width: 37
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e8437638590a19a0800000000000000
+      internalID: -6261682057429956379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punch_recover_8
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 222
+        width: 34
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be6ea68fc0b3b3450800000000000000
+      internalID: 6069509849705277163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punch_recover_9
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 222
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c1281aac359a93f0800000000000000
+      internalID: -893237488295337530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punch_recover_10
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 222
+        width: 23
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9143fa97c8d970c70800000000000000
+      internalID: 8937285212202546201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punch_recover_11
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 223
+        width: 15
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 087d20b269c162f90800000000000000
+      internalID: -6978859141271726208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punch_recover_12
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 117
+        width: 28
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a3d5bc6fbaab9e50800000000000000
+      internalID: 6817230200094708641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punch_recover_13
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 117
+        width: 28
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51df95c096f8b38c0800000000000000
+      internalID: -4018460561156473579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punch_recover_14
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 118
+        width: 28
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 503e6fca9d78c7470800000000000000
+      internalID: 8393733174491276037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punch_recover_15
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 120
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c0e19a961424a930800000000000000
+      internalID: 4153484435843571906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punch_recover_16
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 123
+        width: 26
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c3fa61838837bc90800000000000000
+      internalID: -7154187345591602234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punch_recover_17
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 125
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bbcf0f04e75ee440800000000000000
+      internalID: 4967004076053089203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punch_recover_18
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 17
+        width: 38
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e92acd3a43b89c6e0800000000000000
+      internalID: -1816767916463578466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punch_recover_19
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 17
+        width: 38
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90dd69c0d095d0df0800000000000000
+      internalID: -212415694835884791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punch_recover_20
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 18
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb07a43d6257ca6c0800000000000000
+      internalID: -4130797948591509313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punch_recover_21
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 18
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c32fae91e8b4e50b0800000000000000
+      internalID: -5738065801531166148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punch_recover_22
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 20
+        width: 23
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35921f0aa65ec2e50800000000000000
+      internalID: 6786050984669948243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punch_recover_23
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 22
+        width: 16
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 468a11c201e187240800000000000000
+      internalID: 4789611258516187236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      punch_recover_0: -2879901022801884624
+      punch_recover_1: -9210882953757941504
+      punch_recover_10: 8937285212202546201
+      punch_recover_11: -6978859141271726208
+      punch_recover_12: 6817230200094708641
+      punch_recover_13: -4018460561156473579
+      punch_recover_14: 8393733174491276037
+      punch_recover_15: 4153484435843571906
+      punch_recover_16: -7154187345591602234
+      punch_recover_17: 4967004076053089203
+      punch_recover_18: -1816767916463578466
+      punch_recover_19: -212415694835884791
+      punch_recover_2: -7725748524866808163
+      punch_recover_20: -4130797948591509313
+      punch_recover_21: -5738065801531166148
+      punch_recover_22: 6786050984669948243
+      punch_recover_23: 4789611258516187236
+      punch_recover_3: -7228245897159822680
+      punch_recover_4: -7348180101804439155
+      punch_recover_5: 5246804339357270369
+      punch_recover_6: -4639852966443933895
+      punch_recover_7: -6261682057429956379
+      punch_recover_8: 6069509849705277163
+      punch_recover_9: -893237488295337530
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

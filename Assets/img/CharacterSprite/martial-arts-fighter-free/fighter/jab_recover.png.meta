@@ -1,0 +1,650 @@
+fileFormatVersion: 2
+guid: 80cdb0af4e3f33749818df57f5f31eeb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8357464292459239061
+    second: jab_recover_0
+  - first:
+      213: 4361524119954962293
+    second: jab_recover_1
+  - first:
+      213: -6808798453195306334
+    second: jab_recover_2
+  - first:
+      213: -2413887130472936374
+    second: jab_recover_3
+  - first:
+      213: 5495698345826862138
+    second: jab_recover_4
+  - first:
+      213: 6416976405314551311
+    second: jab_recover_5
+  - first:
+      213: 1851966501855156491
+    second: jab_recover_6
+  - first:
+      213: -4598608212167314015
+    second: jab_recover_7
+  - first:
+      213: 8284945761530350459
+    second: jab_recover_8
+  - first:
+      213: -5731311219216933344
+    second: jab_recover_9
+  - first:
+      213: 1460921655186275717
+    second: jab_recover_10
+  - first:
+      213: -3524607227298072635
+    second: jab_recover_11
+  - first:
+      213: -3093128971599319225
+    second: jab_recover_12
+  - first:
+      213: 3374368862398347203
+    second: jab_recover_13
+  - first:
+      213: 886869717391245413
+    second: jab_recover_14
+  - first:
+      213: -8952049541872197689
+    second: jab_recover_15
+  - first:
+      213: -9018902745098115396
+    second: jab_recover_16
+  - first:
+      213: -1186721778588233220
+    second: jab_recover_17
+  - first:
+      213: 540625220132352320
+    second: jab_recover_18
+  - first:
+      213: -5933311601464895691
+    second: jab_recover_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: jab_recover_0
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 320
+        width: 21
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b69a4f87182540c80800000000000000
+      internalID: -8357464292459239061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jab_recover_1
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 320
+        width: 21
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 577b639241f378c30800000000000000
+      internalID: 4361524119954962293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jab_recover_2
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 322
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2aa8012a1e94281a0800000000000000
+      internalID: -6808798453195306334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jab_recover_3
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 324
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4c0644b176208ed0800000000000000
+      internalID: -2413887130472936374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jab_recover_4
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 327
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3446bf2784a44c40800000000000000
+      internalID: 5495698345826862138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jab_recover_5
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 221
+        width: 39
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0e36d2ca0ead0950800000000000000
+      internalID: 6416976405314551311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jab_recover_6
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 222
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b09dff6a8b183b910800000000000000
+      internalID: 1851966501855156491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jab_recover_7
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 222
+        width: 33
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a5b29c02367e20c0800000000000000
+      internalID: -4598608212167314015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jab_recover_8
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 222
+        width: 25
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7b056b464a0af270800000000000000
+      internalID: 8284945761530350459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jab_recover_9
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 223
+        width: 17
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02e1d59dfca4670b0800000000000000
+      internalID: -5731311219216933344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jab_recover_10
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 116
+        width: 21
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58dbd0e418c364410800000000000000
+      internalID: 1460921655186275717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jab_recover_11
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 116
+        width: 21
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c7bf14a664161fc0800000000000000
+      internalID: -3524607227298072635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jab_recover_12
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 118
+        width: 23
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74f6a53a69ff215d0800000000000000
+      internalID: -3093128971599319225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jab_recover_13
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 121
+        width: 25
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c774682a9a24de20800000000000000
+      internalID: 3374368862398347203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jab_recover_14
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 125
+        width: 23
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56008232f4bce4c00800000000000000
+      internalID: 886869717391245413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jab_recover_15
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 25
+        width: 38
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cf52052f5ee3c380800000000000000
+      internalID: -8952049541872197689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jab_recover_16
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 25
+        width: 37
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb6a1aeccbb66d280800000000000000
+      internalID: -9018902745098115396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jab_recover_17
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 24
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf1570474dae78fe0800000000000000
+      internalID: -1186721778588233220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jab_recover_18
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 24
+        width: 24
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0413b9af5cfa08700800000000000000
+      internalID: 540625220132352320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jab_recover_19
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 23
+        width: 18
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5371bf4d884a8ada0800000000000000
+      internalID: -5933311601464895691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      jab_recover_0: -8357464292459239061
+      jab_recover_1: 4361524119954962293
+      jab_recover_10: 1460921655186275717
+      jab_recover_11: -3524607227298072635
+      jab_recover_12: -3093128971599319225
+      jab_recover_13: 3374368862398347203
+      jab_recover_14: 886869717391245413
+      jab_recover_15: -8952049541872197689
+      jab_recover_16: -9018902745098115396
+      jab_recover_17: -1186721778588233220
+      jab_recover_18: 540625220132352320
+      jab_recover_19: -5933311601464895691
+      jab_recover_2: -6808798453195306334
+      jab_recover_3: -2413887130472936374
+      jab_recover_4: 5495698345826862138
+      jab_recover_5: 6416976405314551311
+      jab_recover_6: 1851966501855156491
+      jab_recover_7: -4598608212167314015
+      jab_recover_8: 8284945761530350459
+      jab_recover_9: -5731311219216933344
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

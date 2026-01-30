@@ -1,0 +1,650 @@
+fileFormatVersion: 2
+guid: 63799c0cf0b144f4b83698a3ef60f96b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3810238483057222771
+    second: front_kick_recover_0
+  - first:
+      213: 5197178542660973727
+    second: front_kick_recover_1
+  - first:
+      213: 5366875334352147307
+    second: front_kick_recover_2
+  - first:
+      213: 2519301370300901475
+    second: front_kick_recover_3
+  - first:
+      213: -4164541802431362005
+    second: front_kick_recover_4
+  - first:
+      213: -6922963938631489480
+    second: front_kick_recover_5
+  - first:
+      213: -5120021465336876377
+    second: front_kick_recover_6
+  - first:
+      213: 5740757870361277433
+    second: front_kick_recover_7
+  - first:
+      213: 308977656158830104
+    second: front_kick_recover_8
+  - first:
+      213: 7625480139597402735
+    second: front_kick_recover_9
+  - first:
+      213: -5581170737096268313
+    second: front_kick_recover_10
+  - first:
+      213: 9103396720578217154
+    second: front_kick_recover_11
+  - first:
+      213: -4168807220134178192
+    second: front_kick_recover_12
+  - first:
+      213: 3374074071256727705
+    second: front_kick_recover_13
+  - first:
+      213: -2813877549824411082
+    second: front_kick_recover_14
+  - first:
+      213: -5694116442657862678
+    second: front_kick_recover_15
+  - first:
+      213: -8989999374794412997
+    second: front_kick_recover_16
+  - first:
+      213: 2533707358257086495
+    second: front_kick_recover_17
+  - first:
+      213: -6882861129595840541
+    second: front_kick_recover_18
+  - first:
+      213: 2731470113115977207
+    second: front_kick_recover_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: front_kick_recover_0
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 326
+        width: 22
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 374262c76bfa0e430800000000000000
+      internalID: 3810238483057222771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: front_kick_recover_1
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 326
+        width: 22
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f94f6954956102840800000000000000
+      internalID: 5197178542660973727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: front_kick_recover_2
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 327
+        width: 22
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b639dd18ea8fa7a40800000000000000
+      internalID: 5366875334352147307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: front_kick_recover_3
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 327
+        width: 23
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 368a0fa9f3b56f220800000000000000
+      internalID: 2519301370300901475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: front_kick_recover_4
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 328
+        width: 23
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2c40dd9b439436c0800000000000000
+      internalID: -4164541802431362005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: front_kick_recover_5
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 231
+        width: 37
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 838e70d2af0bcef90800000000000000
+      internalID: -6922963938631489480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: front_kick_recover_6
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 231
+        width: 34
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a27834ba9702f8b0800000000000000
+      internalID: -5120021465336876377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: front_kick_recover_7
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 230
+        width: 26
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f379640ed44baf40800000000000000
+      internalID: 5740757870361277433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: front_kick_recover_8
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 227
+        width: 21
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81e31ee8a85b94400800000000000000
+      internalID: 308977656158830104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: front_kick_recover_9
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 224
+        width: 15
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f62df7219c523d960800000000000000
+      internalID: 7625480139597402735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: front_kick_recover_10
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 121
+        width: 22
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e56290f8c2bb82b0800000000000000
+      internalID: -5581170737096268313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: front_kick_recover_11
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 122
+        width: 22
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c44583e513c55e70800000000000000
+      internalID: 9103396720578217154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: front_kick_recover_12
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 125
+        width: 22
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07291daabeb6526c0800000000000000
+      internalID: -4168807220134178192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: front_kick_recover_13
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 127
+        width: 22
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9900d1fbd7e13de20800000000000000
+      internalID: 3374074071256727705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: front_kick_recover_14
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 127
+        width: 22
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63af449e64913f8d0800000000000000
+      internalID: -2813877549824411082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: front_kick_recover_15
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 23
+        width: 38
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aebcaad934f6af0b0800000000000000
+      internalID: -5694116442657862678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: front_kick_recover_16
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 23
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3c256e133b1d3380800000000000000
+      internalID: -8989999374794412997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: front_kick_recover_17
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 22
+        width: 25
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1005bd0b69892320800000000000000
+      internalID: 2533707358257086495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: front_kick_recover_18
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 22
+        width: 21
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e79814054a2b70a0800000000000000
+      internalID: -6882861129595840541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: front_kick_recover_19
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 23
+        width: 16
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f5bfde889128e520800000000000000
+      internalID: 2731470113115977207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      front_kick_recover_0: 3810238483057222771
+      front_kick_recover_1: 5197178542660973727
+      front_kick_recover_10: -5581170737096268313
+      front_kick_recover_11: 9103396720578217154
+      front_kick_recover_12: -4168807220134178192
+      front_kick_recover_13: 3374074071256727705
+      front_kick_recover_14: -2813877549824411082
+      front_kick_recover_15: -5694116442657862678
+      front_kick_recover_16: -8989999374794412997
+      front_kick_recover_17: 2533707358257086495
+      front_kick_recover_18: -6882861129595840541
+      front_kick_recover_19: 2731470113115977207
+      front_kick_recover_2: 5366875334352147307
+      front_kick_recover_3: 2519301370300901475
+      front_kick_recover_4: -4164541802431362005
+      front_kick_recover_5: -6922963938631489480
+      front_kick_recover_6: -5120021465336876377
+      front_kick_recover_7: 5740757870361277433
+      front_kick_recover_8: 308977656158830104
+      front_kick_recover_9: 7625480139597402735
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

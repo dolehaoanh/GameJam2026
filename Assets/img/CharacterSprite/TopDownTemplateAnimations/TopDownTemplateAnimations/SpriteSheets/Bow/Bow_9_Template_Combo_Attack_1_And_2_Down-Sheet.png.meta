@@ -1,0 +1,442 @@
+fileFormatVersion: 2
+guid: 8d90435ce88333d438474d47839c3b41
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6814137227644640431
+    second: Bow_9_Template_Combo_Attack_1_And_2_Down-Sheet_0
+  - first:
+      213: -2926506105249785736
+    second: Bow_9_Template_Combo_Attack_1_And_2_Down-Sheet_1
+  - first:
+      213: -8055731018466335995
+    second: Bow_9_Template_Combo_Attack_1_And_2_Down-Sheet_2
+  - first:
+      213: 2327496297031789387
+    second: Bow_9_Template_Combo_Attack_1_And_2_Down-Sheet_3
+  - first:
+      213: 5586311980382984078
+    second: Bow_9_Template_Combo_Attack_1_And_2_Down-Sheet_4
+  - first:
+      213: -3427969393227785940
+    second: Bow_9_Template_Combo_Attack_1_And_2_Down-Sheet_5
+  - first:
+      213: -7282289177498051100
+    second: Bow_9_Template_Combo_Attack_1_And_2_Down-Sheet_6
+  - first:
+      213: -3908857443391937263
+    second: Bow_9_Template_Combo_Attack_1_And_2_Down-Sheet_7
+  - first:
+      213: -3307970543604936600
+    second: Bow_9_Template_Combo_Attack_1_And_2_Down-Sheet_8
+  - first:
+      213: -7622131428393915105
+    second: Bow_9_Template_Combo_Attack_1_And_2_Down-Sheet_9
+  - first:
+      213: 6798931217335130459
+    second: Bow_9_Template_Combo_Attack_1_And_2_Down-Sheet_10
+  - first:
+      213: -4033690407660185965
+    second: Bow_9_Template_Combo_Attack_1_And_2_Down-Sheet_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bow_9_Template_Combo_Attack_1_And_2_Down-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 52
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 153e9775b425f61a0800000000000000
+      internalID: -6814137227644640431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bow_9_Template_Combo_Attack_1_And_2_Down-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 52
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 878139bd336f267d0800000000000000
+      internalID: -2926506105249785736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bow_9_Template_Combo_Attack_1_And_2_Down-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 52
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 503e73ed15b443090800000000000000
+      internalID: -8055731018466335995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bow_9_Template_Combo_Attack_1_And_2_Down-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 52
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4bed90fc8dec4020800000000000000
+      internalID: 2327496297031789387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bow_9_Template_Combo_Attack_1_And_2_Down-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 52
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e879c3b0621968d40800000000000000
+      internalID: 5586311980382984078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bow_9_Template_Combo_Attack_1_And_2_Down-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 52
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c291fbfbff76d60d0800000000000000
+      internalID: -3427969393227785940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bow_9_Template_Combo_Attack_1_And_2_Down-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 52
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ed9e87839c10fa90800000000000000
+      internalID: -7282289177498051100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bow_9_Template_Combo_Attack_1_And_2_Down-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 52
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1156bf08dd2f0c9c0800000000000000
+      internalID: -3908857443391937263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bow_9_Template_Combo_Attack_1_And_2_Down-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 52
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 860d8f4215ab712d0800000000000000
+      internalID: -3307970543604936600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bow_9_Template_Combo_Attack_1_And_2_Down-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 52
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1d6d3389dfb83690800000000000000
+      internalID: -7622131428393915105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bow_9_Template_Combo_Attack_1_And_2_Down-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 52
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b59139d7be7aa5e50800000000000000
+      internalID: 6798931217335130459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bow_9_Template_Combo_Attack_1_And_2_Down-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 1462
+        y: 52
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 396938512f37508c0800000000000000
+      internalID: -4033690407660185965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Bow_9_Template_Combo_Attack_1_And_2_Down-Sheet_0: -6814137227644640431
+      Bow_9_Template_Combo_Attack_1_And_2_Down-Sheet_1: -2926506105249785736
+      Bow_9_Template_Combo_Attack_1_And_2_Down-Sheet_10: 6798931217335130459
+      Bow_9_Template_Combo_Attack_1_And_2_Down-Sheet_11: -4033690407660185965
+      Bow_9_Template_Combo_Attack_1_And_2_Down-Sheet_2: -8055731018466335995
+      Bow_9_Template_Combo_Attack_1_And_2_Down-Sheet_3: 2327496297031789387
+      Bow_9_Template_Combo_Attack_1_And_2_Down-Sheet_4: 5586311980382984078
+      Bow_9_Template_Combo_Attack_1_And_2_Down-Sheet_5: -3427969393227785940
+      Bow_9_Template_Combo_Attack_1_And_2_Down-Sheet_6: -7282289177498051100
+      Bow_9_Template_Combo_Attack_1_And_2_Down-Sheet_7: -3908857443391937263
+      Bow_9_Template_Combo_Attack_1_And_2_Down-Sheet_8: -3307970543604936600
+      Bow_9_Template_Combo_Attack_1_And_2_Down-Sheet_9: -7622131428393915105
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

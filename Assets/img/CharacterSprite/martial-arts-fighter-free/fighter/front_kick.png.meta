@@ -1,0 +1,1170 @@
+fileFormatVersion: 2
+guid: 63528a5d84344564091b361058d6c596
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1227449636932489404
+    second: front_kick_0
+  - first:
+      213: -1875415390907225735
+    second: front_kick_1
+  - first:
+      213: -2739656138505086880
+    second: front_kick_2
+  - first:
+      213: -5706510504759780896
+    second: front_kick_3
+  - first:
+      213: 4758414694599674112
+    second: front_kick_4
+  - first:
+      213: 8709725067550667400
+    second: front_kick_5
+  - first:
+      213: -7378343596185794275
+    second: front_kick_6
+  - first:
+      213: -2496590654149004353
+    second: front_kick_7
+  - first:
+      213: 6473477857978381494
+    second: front_kick_8
+  - first:
+      213: 2586980769993678974
+    second: front_kick_9
+  - first:
+      213: 66746116619348645
+    second: front_kick_10
+  - first:
+      213: -7742466456924539646
+    second: front_kick_11
+  - first:
+      213: 9006616602762012952
+    second: front_kick_12
+  - first:
+      213: -3546578409596165379
+    second: front_kick_13
+  - first:
+      213: -5387984600937905097
+    second: front_kick_14
+  - first:
+      213: -7922081672117404165
+    second: front_kick_15
+  - first:
+      213: 2192727238430264367
+    second: front_kick_16
+  - first:
+      213: 6847997118509191590
+    second: front_kick_17
+  - first:
+      213: 9045483653059416836
+    second: front_kick_18
+  - first:
+      213: 2577556493616425760
+    second: front_kick_19
+  - first:
+      213: 3263642454637755170
+    second: front_kick_20
+  - first:
+      213: 6156076003038268303
+    second: front_kick_21
+  - first:
+      213: -1614207480947870482
+    second: front_kick_22
+  - first:
+      213: -31498786206306131
+    second: front_kick_23
+  - first:
+      213: -8858193335530727576
+    second: front_kick_24
+  - first:
+      213: -4367385091791096439
+    second: front_kick_25
+  - first:
+      213: -5320645009667276484
+    second: front_kick_26
+  - first:
+      213: -7374069117705379292
+    second: front_kick_27
+  - first:
+      213: 7036194197471923678
+    second: front_kick_28
+  - first:
+      213: -4484612892920476977
+    second: front_kick_29
+  - first:
+      213: 2409620397163994140
+    second: front_kick_30
+  - first:
+      213: 9166767739603180893
+    second: front_kick_31
+  - first:
+      213: 5656256735364480473
+    second: front_kick_32
+  - first:
+      213: 7473470362499506078
+    second: front_kick_33
+  - first:
+      213: 7693501148397618383
+    second: front_kick_34
+  - first:
+      213: 4760581137388324897
+    second: front_kick_35
+  - first:
+      213: -4650141792230430497
+    second: front_kick_36
+  - first:
+      213: 2364520291420557412
+    second: front_kick_37
+  - first:
+      213: -4647186783510645727
+    second: front_kick_38
+  - first:
+      213: 3873347571255540134
+    second: front_kick_39
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: front_kick_0
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 323
+        width: 22
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb01b0501f6c80110800000000000000
+      internalID: 1227449636932489404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: front_kick_1
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 331
+        width: 24
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 979acaa63af29f5e0800000000000000
+      internalID: -1875415390907225735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: front_kick_2
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 329
+        width: 24
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0689fa1e149caf9d0800000000000000
+      internalID: -2739656138505086880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: front_kick_3
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 328
+        width: 24
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e912c82ee66ec0b0800000000000000
+      internalID: -5706510504759780896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: front_kick_4
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 331
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 009cc9d14f8490240800000000000000
+      internalID: 4758414694599674112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: front_kick_5
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 326
+        width: 22
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8823ca68dc82fd870800000000000000
+      internalID: 8709725067550667400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: front_kick_6
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 326
+        width: 22
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d194196679bda9990800000000000000
+      internalID: -7378343596185794275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: front_kick_7
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 326
+        width: 22
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb373ed07045a5dd0800000000000000
+      internalID: -2496590654149004353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: front_kick_8
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 326
+        width: 22
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b4782a50d966d950800000000000000
+      internalID: 6473477857978381494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: front_kick_9
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 326
+        width: 22
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e706d3ccd4dc6e320800000000000000
+      internalID: 2586980769993678974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: front_kick_10
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 225
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aaab3b4d312de000800000000000000
+      internalID: 66746116619348645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: front_kick_11
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 225
+        width: 22
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 205b2ad57cb3d8490800000000000000
+      internalID: -7742466456924539646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: front_kick_12
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 226
+        width: 26
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 819e3c3c41eedfc70800000000000000
+      internalID: 9006616602762012952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: front_kick_13
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 230
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df263ff1ab508cec0800000000000000
+      internalID: -3546578409596165379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: front_kick_14
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 233
+        width: 21
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73442dd5d880a35b0800000000000000
+      internalID: -5387984600937905097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: front_kick_15
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 231
+        width: 35
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfd3fc331bc1f0290800000000000000
+      internalID: -7922081672117404165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: front_kick_16
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 231
+        width: 44
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2c85f74ec12e6e10800000000000000
+      internalID: 2192727238430264367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: front_kick_17
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 231
+        width: 45
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a193a7d819f80f50800000000000000
+      internalID: 6847997118509191590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: front_kick_18
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 231
+        width: 43
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 403953a1573088d70800000000000000
+      internalID: 9045483653059416836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: front_kick_19
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 231
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02b228679f155c320800000000000000
+      internalID: 2577556493616425760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: front_kick_20
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 120
+        width: 22
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22b319e5589ca4d20800000000000000
+      internalID: 3263642454637755170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: front_kick_21
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 122
+        width: 24
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8b076b2286ce6550800000000000000
+      internalID: 6156076003038268303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: front_kick_22
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 126
+        width: 23
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee4f25839de2999e0800000000000000
+      internalID: -1614207480947870482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: front_kick_23
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 132
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da031555508109ff0800000000000000
+      internalID: -31498786206306131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: front_kick_24
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 127
+        width: 22
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86755f31810611580800000000000000
+      internalID: -8858193335530727576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: front_kick_25
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 128
+        width: 20
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 985747ef56ee363c0800000000000000
+      internalID: -4367385091791096439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: front_kick_26
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 124
+        width: 22
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c31c3debd854926b0800000000000000
+      internalID: -5320645009667276484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: front_kick_27
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 123
+        width: 22
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4222ef9f43b0aa990800000000000000
+      internalID: -7374069117705379292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: front_kick_28
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 121
+        width: 22
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edd8afed75595a160800000000000000
+      internalID: 7036194197471923678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: front_kick_29
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 120
+        width: 22
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fca865a955473c1c0800000000000000
+      internalID: -4484612892920476977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: front_kick_30
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 26
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1cde780cf0b07120800000000000000
+      internalID: 2409620397163994140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: front_kick_31
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 30
+        width: 20
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5dde8901b6e63f70800000000000000
+      internalID: 9166767739603180893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: front_kick_32
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 28
+        width: 26
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dd7fcd588f0f7e40800000000000000
+      internalID: 5656256735364480473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: front_kick_33
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 30
+        width: 37
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9f5134d2b917b760800000000000000
+      internalID: 7473470362499506078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: front_kick_34
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 27
+        width: 21
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc4cc45588ec4ca60800000000000000
+      internalID: 7693501148397618383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: front_kick_35
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 22
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 128c472625bf01240800000000000000
+      internalID: 4760581137388324897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: front_kick_36
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 23
+        width: 44
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd828ee6da0677fb0800000000000000
+      internalID: -4650141792230430497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: front_kick_37
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 23
+        width: 46
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46053526da670d020800000000000000
+      internalID: 2364520291420557412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: front_kick_38
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 23
+        width: 44
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12435f30e30e18fb0800000000000000
+      internalID: -4647186783510645727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: front_kick_39
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 23
+        width: 41
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a9fe4c1815e0c530800000000000000
+      internalID: 3873347571255540134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      front_kick_0: 1227449636932489404
+      front_kick_1: -1875415390907225735
+      front_kick_10: 66746116619348645
+      front_kick_11: -7742466456924539646
+      front_kick_12: 9006616602762012952
+      front_kick_13: -3546578409596165379
+      front_kick_14: -5387984600937905097
+      front_kick_15: -7922081672117404165
+      front_kick_16: 2192727238430264367
+      front_kick_17: 6847997118509191590
+      front_kick_18: 9045483653059416836
+      front_kick_19: 2577556493616425760
+      front_kick_2: -2739656138505086880
+      front_kick_20: 3263642454637755170
+      front_kick_21: 6156076003038268303
+      front_kick_22: -1614207480947870482
+      front_kick_23: -31498786206306131
+      front_kick_24: -8858193335530727576
+      front_kick_25: -4367385091791096439
+      front_kick_26: -5320645009667276484
+      front_kick_27: -7374069117705379292
+      front_kick_28: 7036194197471923678
+      front_kick_29: -4484612892920476977
+      front_kick_3: -5706510504759780896
+      front_kick_30: 2409620397163994140
+      front_kick_31: 9166767739603180893
+      front_kick_32: 5656256735364480473
+      front_kick_33: 7473470362499506078
+      front_kick_34: 7693501148397618383
+      front_kick_35: 4760581137388324897
+      front_kick_36: -4650141792230430497
+      front_kick_37: 2364520291420557412
+      front_kick_38: -4647186783510645727
+      front_kick_39: 3873347571255540134
+      front_kick_4: 4758414694599674112
+      front_kick_5: 8709725067550667400
+      front_kick_6: -7378343596185794275
+      front_kick_7: -2496590654149004353
+      front_kick_8: 6473477857978381494
+      front_kick_9: 2586980769993678974
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
