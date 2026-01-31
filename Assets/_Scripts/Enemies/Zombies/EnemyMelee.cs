@@ -12,7 +12,6 @@ public class EnemyMelee : EnemyBaseFSM
         {
             // TẤN CÔNG
             if (anim != null) anim.SetTrigger("Attack");
-            Debug.Log($"<color=red>{name} cắn trúng Player!</color>");
 
             // TODO: Trừ máu Player thật ở đây
             // target.GetComponent<PlayerHealth>()?.TakeDamage(damage);

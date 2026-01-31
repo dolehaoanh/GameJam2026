@@ -7,7 +7,8 @@ using System.Collections;
 [RequireComponent(typeof(CapsuleCollider2D))] // <--- THAY BẰNG DÒNG NÀY
 public class EnemyBaseFSM : MonoBehaviour
 {
-    public enum EnemyState { Idle, Chase, Attack, Die }
+    public enum 
+    EnemyState { Idle, Chase, Attack, Die }
 
     [Header("--- DEBUG MODE (BẬT LÊN ĐỂ SOI) ---")]
     public bool showDebugLogs = true; // Tích vào cái này để xem log
@@ -27,6 +28,11 @@ public class EnemyBaseFSM : MonoBehaviour
     public float attackCooldown = 2f;
     public float moveSpeed = 3.5f; // Đảm bảo số này > 0
     protected float lastAttackTime;
+
+    [Header("--- STUCK DETECTION ---")]
+    public float stuckVelocityThreshold = 0.1f; // Dưới ngưỡng vận tốc coi như kẹt
+    public float stuckTimeThreshold = 0.6f; // Thời gian (s) để xác nhận kẹt
+    private float stuckTimer = 0f;
 
     [Header("--- REFERENCES ---")]
     protected Transform target;
@@ -64,14 +70,6 @@ public class EnemyBaseFSM : MonoBehaviour
         FindPlayer();
         TintEnemyColor();
 
-        // --- KIỂM TRA BỆNH LÝ NGAY KHI START ---
-        if (showDebugLogs)
-        {
-            if (target == null) Debug.LogError($"❌ {name}: KHÔNG TÌM THẤY PLAYER! (Kiểm tra Tag 'Player' chưa?)");
-            if (!agent.isOnNavMesh) Debug.LogError($"❌ {name}: KHÔNG NẰM TRÊN NAVMESH! (Đã Bake chưa? Z có bằng 0 không?)");
-            else Debug.Log($"✅ {name}: Đã đặt chân lên NavMesh an toàn.");
-        }
-
         ChangeState(EnemyState.Idle);
     }
 
@@ -99,12 +97,6 @@ public class EnemyBaseFSM : MonoBehaviour
             // --- SỬA DÒNG NÀY ---
             // Thay vì GetComponent (chỉ tìm trên cha), hãy dùng GetComponentInChildren (tìm cả con)
             playerColorMgr = playerObj.GetComponentInChildren<PlayerColorManager>();
-
-            // --- THÊM DÒNG DEBUG ĐỂ KIỂM TRA ---
-            if (playerColorMgr == null)
-                Debug.LogError("❌ Enemy: Tìm thấy Player nhưng KHÔNG thấy script 'PlayerColorManager'! Kiểm tra lại xem gắn script chưa?");
-            else
-                Debug.Log("✅ Enemy: Đã kết nối với hệ thống màu sắc của Player.");
         }
     }
     protected virtual void Update()
@@ -137,7 +129,6 @@ public class EnemyBaseFSM : MonoBehaviour
                     rb.angularVelocity = 0f;       // Dừng xoay
                 }
 
-                if (showDebugLogs) Debug.Log($"🛑 {name}: Phát hiện cùng màu -> PHANH GẤP!");
                 ChangeState(EnemyState.Idle);
             }
             return; // Ngắt luôn, không làm gì nữa
@@ -165,7 +156,6 @@ public class EnemyBaseFSM : MonoBehaviour
 
         if (dist < chaseRange)
         {
-            if (showDebugLogs) Debug.Log($"👀 {name}: Phát hiện Player ({dist}m) -> CHASE!");
             ChangeState(EnemyState.Chase);
         }
     }
@@ -189,17 +179,33 @@ public class EnemyBaseFSM : MonoBehaviour
         // --- 2. TÍNH KHOẢNG CÁCH (KHAI BÁO 1 LẦN DUY NHẤT) ---
         float dist = Vector2.Distance(transform.position, target.position);
 
-        // --- 3. DEBUG SOI KẸT ---
-        if (showDebugLogs && agent.hasPath && agent.velocity.magnitude < 0.1f && !agent.isStopped)
+        // --- 3. DEBUG SOI KẸT VÀ XỬ LÝ ---
+        bool maybeStuck = agent != null && agent.hasPath && !agent.isStopped && !agent.pathPending && agent.velocity.magnitude < stuckVelocityThreshold;
+
+        // Nếu nghi kẹt chân thì tăng timer, quá ngưỡng -> cố gắng 'unstick'
+        if (maybeStuck)
         {
-            Debug.LogWarning($"⚠️ {name}: Đang Chase nhưng kẹt chân! (HasPath: {agent.hasPath}, Status: {agent.pathStatus})");
+            stuckTimer += Time.deltaTime;
+            if (stuckTimer > stuckTimeThreshold)
+            {
+                // Thử reset đường đi và warp nhẹ để làm mới internal state của NavMeshAgent
+                if (agent.isOnNavMesh)
+                {
+                    agent.ResetPath();
+                    agent.Warp(transform.position);
+                    agent.SetDestination(target.position);
+                }
+                stuckTimer = 0f; // reset timer sau khi thử
+            }
+        }
+        else
+        {
+            stuckTimer = 0f;
         }
 
         // --- 4. CHUYỂN TRẠNG THÁI ---
         if (dist <= attackRange)
         {
-            if (showDebugLogs) Debug.Log($"⚔️ {name}: Đủ tầm đánh ({dist}m) -> ATTACK!");
-
             agent.ResetPath(); // Dừng lại để đánh
             ChangeState(EnemyState.Attack);
         }
@@ -217,7 +223,6 @@ public class EnemyBaseFSM : MonoBehaviour
 
         if (dist > attackRange && Time.time > lastAttackTime + attackCooldown)
         {
-            if (showDebugLogs) Debug.Log($"💨 {name}: Player chạy mất ({dist}m) -> Quay lại CHASE");
             ChangeState(EnemyState.Chase);
         }
     }
@@ -227,8 +232,6 @@ public class EnemyBaseFSM : MonoBehaviour
     public void ChangeState(EnemyState newState)
     {
         if (currentState == newState) return; // Tránh spam log nếu trạng thái không đổi
-
-        if (showDebugLogs) Debug.Log($"🔄 {name} State Change: [{currentState}] ---> [{newState}]");
         currentState = newState;
     }
 
@@ -252,8 +255,6 @@ public class EnemyBaseFSM : MonoBehaviour
     public void TakeDamage(float damage)
     {
         hp -= damage;
-        if (showDebugLogs) Debug.Log($"🩸 {name} bị đánh! HP còn: {hp}");
-
         if (hp <= 0) Die();
     }
 

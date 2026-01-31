@@ -30,7 +30,6 @@ public class WaveSpawner : MonoBehaviour
         while (currentWaveIndex < waves.Length)
         {
             Wave currentWave = waves[currentWaveIndex];
-            Debug.Log($"Bắt đầu đợt: {currentWave.waveName}");
 
             // 1. Spawn Zombie
             for (int i = 0; i < currentWave.zombieCount; i++)
@@ -53,13 +52,10 @@ public class WaveSpawner : MonoBehaviour
                 yield return new WaitForSeconds(currentWave.timeBetweenSpawns);
             }
 
-            Debug.Log("Hết đợt! Nghỉ ngơi...");
             yield return new WaitForSeconds(timeBetweenWaves);
             
             currentWaveIndex++;
         }
-        
-        Debug.Log("CHIẾN THẮNG! (Hoặc lặp lại vô tận tùy logic)");
     }
 
     void SpawnEnemy(EnemyType type)

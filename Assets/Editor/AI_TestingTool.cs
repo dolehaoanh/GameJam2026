@@ -172,7 +172,7 @@ public class AI_TestingTool : EditorWindow
 
     void ForceRebake()
     {
-        NavMeshSurface surface = FindObjectOfType<NavMeshSurface>();
+        NavMeshSurface surface = FindFirstObjectByType<NavMeshSurface>();
         if (surface != null)
         {
             surface.BuildNavMesh();

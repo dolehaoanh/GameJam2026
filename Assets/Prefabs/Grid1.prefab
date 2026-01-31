@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7497039546959015025}
   - component: {fileID: 2302577584239760657}
   - component: {fileID: 4502156586688676757}
+  - component: {fileID: 9082352306661326501}
   m_Layer: 0
   m_Name: Background
   m_TagString: Untagged
@@ -10263,6 +10264,22 @@ TilemapRenderer:
   m_SortOrder: 0
   m_Mode: 0
   m_DetectChunkCullingBounds: 0
+--- !u!114 &9082352306661326501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 645163192125417546}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9809bf1345abc5648af68b3a82653f08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: NavMeshPlus::NavMeshPlus.Components.NavMeshModifier
+  m_OverrideArea: 1
+  m_Area: 0
+  m_IgnoreFromBuild: 0
+  m_AffectedAgents: ffffffff
 --- !u!1 &4771402316404110731
 GameObject:
   m_ObjectHideFlags: 0
@@ -13426,6 +13443,7 @@ GameObject:
   - component: {fileID: 2775590251701145806}
   - component: {fileID: 6358578690574448131}
   - component: {fileID: 4723888168918441693}
+  - component: {fileID: 8848335090625094525}
   m_Layer: 0
   m_Name: Buildings
   m_TagString: Untagged
@@ -17368,6 +17386,22 @@ TilemapRenderer:
   m_SortOrder: 0
   m_Mode: 0
   m_DetectChunkCullingBounds: 0
+--- !u!114 &8848335090625094525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6105706946460567621}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9809bf1345abc5648af68b3a82653f08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: NavMeshPlus::NavMeshPlus.Components.NavMeshModifier
+  m_OverrideArea: 1
+  m_Area: 1
+  m_IgnoreFromBuild: 0
+  m_AffectedAgents: ffffffff
 --- !u!1 &7643997822552630735
 GameObject:
   m_ObjectHideFlags: 0

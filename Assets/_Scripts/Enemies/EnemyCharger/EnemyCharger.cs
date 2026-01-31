@@ -28,8 +28,6 @@ public class EnemyCharger : EnemyBaseFSM
         {
             agent.velocity = Vector3.zero;
         }
-        
-        if(showDebugLogs) Debug.Log($"<color=cyan>⚡ {name}: Đã Reset biến isCharging! Sẵn sàng đuổi tiếp.</color>");
     }
 
     protected override void LogicAttack()
