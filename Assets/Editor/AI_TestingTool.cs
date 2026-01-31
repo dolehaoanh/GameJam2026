@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEditor;
-using NavMeshPlus.Components;
+using UnityEngine.AI;
+using NavMeshPlus.Components; // Thư viện NavMeshPlus
 
 public class AI_TestingTool : EditorWindow
 {
@@ -10,14 +11,15 @@ public class AI_TestingTool : EditorWindow
     float spawnRadius = 10f;
     Transform spawnRoot;
 
-    Color zombieColor = new Color(1f, 0.3f, 0.3f);
-    Color skeletonColor = new Color(0.9f, 0.9f, 0.9f);
-    Color chargerColor = new Color(0.2f, 0.2f, 0.2f);
+    // Màu sắc
+    Color zombieColor = new Color(1f, 0.3f, 0.3f); // Đỏ
+    Color skeletonColor = new Color(0.9f, 0.9f, 0.9f); // Trắng
+    Color chargerColor = new Color(0.2f, 0.2f, 0.2f); // Đen
 
-    [MenuItem("Mad Tools/AI Testing Generator (Sorting Layer Only)")]
+    [MenuItem("Mad Tools/AI Generator (Ultimate)")]
     public static void ShowWindow()
     {
-        GetWindow<AI_TestingTool>("AI Generator");
+        GetWindow<AI_TestingTool>("AI Ultimate");
     }
 
     void OnGUI()
@@ -39,18 +41,18 @@ public class AI_TestingTool : EditorWindow
 
         GUILayout.Label("--- 2. TẠO QUÁI TEST (DUMMY) ---", EditorStyles.boldLabel);
         EditorGUILayout.BeginVertical("box");
-        GUILayout.Label("Chỉ tự động gán SORTING LAYER = 'Enemy'", EditorStyles.miniLabel);
+        GUILayout.Label("Tự động: Capsule Collider, NavMesh Radius nhỏ, Charger Stats xịn", EditorStyles.miniLabel);
 
         GUI.backgroundColor = new Color(1f, 0.6f, 0.6f);
-        if (GUILayout.Button("Spawn ZOMBIE", GUILayout.Height(30)))
+        if (GUILayout.Button("Spawn ZOMBIE (Melee)", GUILayout.Height(30)))
             CreateEnemyDummy(EnemyType.Zombie, "Dummy_Zombie", zombieColor);
 
         GUI.backgroundColor = Color.white;
-        if (GUILayout.Button("Spawn SKELETON", GUILayout.Height(30)))
+        if (GUILayout.Button("Spawn SKELETON (Ranged)", GUILayout.Height(30)))
             CreateEnemyDummy(EnemyType.Skeleton, "Dummy_Skeleton", skeletonColor);
 
         GUI.backgroundColor = Color.grey;
-        if (GUILayout.Button("Spawn CHARGER", GUILayout.Height(30)))
+        if (GUILayout.Button("Spawn CHARGER (Tank Húc)", GUILayout.Height(30)))
             CreateEnemyDummy(EnemyType.Charger, "Dummy_Charger", chargerColor);
         
         EditorGUILayout.EndVertical();
@@ -80,7 +82,7 @@ public class AI_TestingTool : EditorWindow
             point.transform.position = new Vector3(randomPos.x, randomPos.y, 0);
             point.transform.SetParent(spawnRoot);
             
-            // Script hiển thị Gizmos (Đã có từ bước trước)
+            // Gắn visualizer (yêu cầu đã có script SpawnPointVisualizer)
             point.AddComponent<SpawnPointVisualizer>();
             
             Undo.RegisterCreatedObjectUndo(point, "Create Spawn Point");
@@ -95,23 +97,15 @@ public class AI_TestingTool : EditorWindow
         GameObject enemyObj = new GameObject(name);
         enemyObj.transform.position = Vector3.zero;
 
-        // 1. TẠO VISUAL VÀ CHỈ GÁN SORTING LAYER
+        // 1. VISUAL (SPRITE & LAYER)
         SpriteRenderer sr = enemyObj.AddComponent<SpriteRenderer>();
         sr.sprite = GenerateDefaultSprite(color);
+        
+        // Chỉ gán Sorting Layer (Không chạm vào Physics Layer)
+        if (IsSortingLayerExist("Enemy")) sr.sortingLayerName = "Enemy";
+        else sr.sortingOrder = 5;
 
-        // --- CHỈ XỬ LÝ SORTING LAYER ---
-        if (IsSortingLayerExist("Enemy"))
-        {
-            sr.sortingLayerName = "Enemy"; // Chỉ set cái này!
-        }
-        else
-        {
-            Debug.LogWarning("⚠️ Chưa tạo Sorting Layer 'Enemy'. Đã gán tạm Order = 5.");
-            sr.sortingOrder = 5; // Fallback nếu chưa tạo
-        }
-        // --------------------------------
-
-        // 2. GÁN SCRIPT AI
+        // 2. GÁN SCRIPT AI & CẤU HÌNH STATS
         EnemyBaseFSM script = null;
         switch (type)
         {
@@ -123,26 +117,54 @@ public class AI_TestingTool : EditorWindow
             case EnemyType.Skeleton:
                 script = enemyObj.AddComponent<EnemyRanged>();
                 script.enemyMask = MaskType.White;
+                
                 GameObject gun = new GameObject("FirePoint");
                 gun.transform.SetParent(enemyObj.transform);
                 gun.transform.localPosition = Vector3.right * 0.6f;
+                
+                // Gán súng vào biến firePoint (nếu tìm thấy)
                 script.GetType().GetField("firePoint")?.SetValue(script, gun.transform);
                 break;
 
             case EnemyType.Charger:
-                script = enemyObj.AddComponent<EnemyCharger>();
-                script.enemyMask = MaskType.Black;
+                // --- CẤU HÌNH RIÊNG CHO CHARGER ---
+                var charger = enemyObj.AddComponent<EnemyCharger>();
+                charger.enemyMask = MaskType.Black;
+                
+                // Chỉ số "Bò Điên" theo yêu cầu:
+                charger.attackRange = 8f;       // Tầm kích hoạt xa 8m
+                charger.chargeSpeed = 30f;      // Tốc độ tên lửa
+                charger.chargeDuration = 0.5f;  // Húc nhanh gọn
+                
+                script = charger;
                 break;
         }
 
-        // 3. CHỈNH COLLIDER
+        // 3. XỬ LÝ COLLIDER (CAPSULE CHỐNG KẸT)
+        // Nếu script FSM tự thêm BoxCollider2D (do RequireComponent cũ), ta xóa nó đi
         BoxCollider2D box = enemyObj.GetComponent<BoxCollider2D>();
-        if (box != null) box.size = new Vector2(0.64f, 0.64f);
+        if (box != null) DestroyImmediate(box);
+
+        // Thêm CapsuleCollider2D (Trơn hơn Box)
+        CapsuleCollider2D capsule = enemyObj.GetComponent<CapsuleCollider2D>();
+        if (capsule == null) capsule = enemyObj.AddComponent<CapsuleCollider2D>();
+        
+        capsule.size = new Vector2(0.6f, 0.6f);
+        capsule.direction = CapsuleDirection2D.Vertical;
+
+        // 4. TỐI ƯU NAVMESH AGENT
+        NavMeshAgent agent = enemyObj.GetComponent<NavMeshAgent>();
+        if (agent != null)
+        {
+            agent.radius = 0.25f; // Bán kính nhỏ để luồn lách tốt
+            agent.height = 1f;
+            agent.obstacleAvoidanceType = ObstacleAvoidanceType.MedQualityObstacleAvoidance;
+        }
 
         Undo.RegisterCreatedObjectUndo(enemyObj, "Create Dummy Enemy");
         Selection.activeGameObject = enemyObj;
 
-        Debug.Log($"Đã tạo {name} (Sorting Layer: {sr.sortingLayerName}). Đang Re-bake...");
+        Debug.Log($"Đã tạo {name} (Stats chuẩn). Đang Re-bake...");
         ForceRebake();
     }
 
@@ -158,7 +180,7 @@ public class AI_TestingTool : EditorWindow
         }
         else
         {
-            Debug.LogError("❌ Không tìm thấy 'NavMeshSurface'!");
+            Debug.LogError("❌ Không tìm thấy 'NavMeshSurface'! Hãy tạo GameObject NavMesh trước.");
         }
     }
 

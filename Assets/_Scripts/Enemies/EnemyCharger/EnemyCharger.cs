@@ -4,12 +4,12 @@ using System.Collections;
 public class EnemyCharger : EnemyBaseFSM
 {
     [Header("Specific Settings")]
-    public float chargeSpeed = 20f;
-    public float prepareTime = 1f; // Thời gian cảnh báo
-    public float chargeDuration = 0.5f; // Thời gian lao đi
+    public float chargeSpeed = 30f; // Đã nâng cấp theo yêu cầu của đồng chí
+    public float prepareTime = 1f;
+    public float chargeDuration = 0.5f;
 
     private bool isCharging = false;
-    private Color originalColor;
+    private Color originalColor; 
 
     protected override void Start()
     {
@@ -17,9 +17,24 @@ public class EnemyCharger : EnemyBaseFSM
         if (sr != null) originalColor = sr.color;
     }
 
+    // --- HÀM QUAN TRỌNG NHẤT ĐỂ TRỊ BỆNH LIỆT ---
+    public override void ResetSpecialAbility()
+    {
+        isCharging = false; // Mở khóa trạng thái
+        if (sr != null) sr.color = originalColor; // Trả lại màu đen
+        
+        // Nhả phanh vật lý để không bị trôi
+        if (agent != null && agent.isOnNavMesh)
+        {
+            agent.velocity = Vector3.zero;
+        }
+        
+        if(showDebugLogs) Debug.Log($"<color=cyan>⚡ {name}: Đã Reset biến isCharging! Sẵn sàng đuổi tiếp.</color>");
+    }
+
     protected override void LogicAttack()
     {
-        if (isCharging) return; // Đang húc thì kệ
+        if (isCharging) return;
 
         if (Time.time > lastAttackTime + attackCooldown)
         {
@@ -28,7 +43,6 @@ public class EnemyCharger : EnemyBaseFSM
         }
         else
         {
-            // Trong lúc chờ hồi chiêu thì vẫn bám theo
             float dist = Vector2.Distance(transform.position, target.position);
             if (dist > attackRange) ChangeState(EnemyState.Chase);
         }
@@ -37,33 +51,32 @@ public class EnemyCharger : EnemyBaseFSM
     IEnumerator ChargeRoutine()
     {
         isCharging = true;
-        agent.isStopped = true; // Tắt NavMesh để tự lao
-
-        // 1. GỒNG (Cảnh báo)
-        if (sr != null) sr.color = Color.yellow; // Nháy màu
-        Debug.Log("Charger: Gồng...");
-        yield return new WaitForSeconds(prepareTime);
-
-        // 2. CHỐT HƯỚNG
-        Vector3 dir = (target.position - transform.position).normalized;
-        if (sr != null) sr.color = originalColor; // Trả màu
-
-        // 3. HÚC
-        float timer = 0;
-        while (timer < chargeDuration)
+        
+        if (agent.isOnNavMesh) 
         {
-            // Dùng NavMeshAgent.velocity hoặc Transform để lao
-            agent.velocity = dir * chargeSpeed;
-            timer += Time.deltaTime;
-            yield return null;
+            agent.isStopped = true; 
+            agent.ResetPath();
         }
 
-        // 4. NGHỈ
-        agent.velocity = Vector3.zero;
-        agent.isStopped = false;
-        isCharging = false;
+        if (sr != null) sr.color = Color.yellow; // Gồng
+        yield return new WaitForSeconds(prepareTime);
 
-        // Xong việc thì quay lại đuổi tiếp
+        if (sr != null) sr.color = originalColor; // Húc
+        
+        if (target != null)
+        {
+            Vector3 dir = (target.position - transform.position).normalized;
+            float timer = 0;
+            while (timer < chargeDuration)
+            {
+                agent.velocity = dir * chargeSpeed; // Lao đi
+                timer += Time.deltaTime;
+                yield return null;
+            }
+        }
+
+        // Kết thúc bình thường
+        ResetSpecialAbility();
         ChangeState(EnemyState.Chase);
     }
 }
