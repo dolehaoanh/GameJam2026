@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 6204466058715852469}
   - component: {fileID: 6877852956474369949}
   - component: {fileID: 5815709756266073279}
+  - component: {fileID: 4044944277245508547}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -140,7 +141,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerWeaponManager
   swordWeaponData: {fileID: 11400000, guid: bb982bee0a382de41b6fa6912ea384ce, type: 2}
-  currentWeapon: {fileID: 11400000, guid: bb982bee0a382de41b6fa6912ea384ce, type: 2}
+  currentWeapon: {fileID: 0}
 --- !u!114 &5815709756266073279
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -159,6 +160,19 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 8685aa3e18275410f8208ae05907389a, type: 3}
   - {fileID: 21300000, guid: 8fb7e36963ca646bca0c89853ce6f486, type: 3}
   swapKey: 32
+--- !u!114 &4044944277245508547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 462877033238343135}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2350c625ecd154c7c8da2a1e9e1eaa06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerAttack
+  attackKey: 13
 --- !u!1 &4064070078564642509
 GameObject:
   m_ObjectHideFlags: 0
@@ -504,4 +518,4 @@ MonoBehaviour:
   colorRed: {r: 1, g: 0, b: 0, a: 1}
   colorWhite: {r: 1, g: 1, b: 1, a: 1}
   colorBlack: {r: 0, g: 0, b: 0, a: 1}
-  currentMask: 0
+  currentMask: 1

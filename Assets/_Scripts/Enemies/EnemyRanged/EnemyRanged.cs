@@ -12,6 +12,33 @@ public class EnemyRanged : EnemyBaseFSM
     public float bulletDamage = 15f;
     public float bulletSpeed = 10f;
 
+    // Trong file EnemyRanged.cs
+
+    protected override void Update()
+    {
+        // --- 1. CHỐT CHẶN TUYỆT ĐỐI ---
+        if (EnemyBaseFSM.IsGlobalFrozen)
+        {
+            // A. Dừng di chuyển
+            if (agent != null && agent.enabled) agent.isStopped = true;
+
+            // B. Cấm tấn công (Reset bộ đếm giờ tấn công)
+            //attackTimer = 0f;
+
+            // C. Ngắt Animation tấn công (nếu có) - Chuyển về Idle
+            // animator.Play("Idle"); // Bỏ comment dòng này nếu muốn nó đứng im phăng phắc
+
+            return; // ⛔ DỪNG NGAY! Cấm chạy bất kỳ dòng code nào bên dưới
+        }
+        else
+        {
+            // Xả băng thì mới cho đi lại
+            if (agent != null && agent.enabled) agent.isStopped = false;
+        }
+        // ---------------------------------
+
+        base.Update(); // Logic cũ chạy bình thường khi không đóng băng
+    }
     protected override void Start()
     {
         base.Start();
@@ -24,6 +51,12 @@ public class EnemyRanged : EnemyBaseFSM
 
     protected override void LogicChase()
     {
+        // --- THÊM DÒNG NÀY ---
+        if (EnemyBaseFSM.IsGlobalFrozen) return; // Đóng băng thì đừng có set đường đi nữa!
+        // ---------------------
+
+        if (agent == null || !agent.isOnNavMesh || !agent.isActiveAndEnabled) return;
+        agent.SetDestination(target.position);
         // --- ĐOẠN CODE "MÁY DÒ LỖI" ---
         if (agent == null)
         {

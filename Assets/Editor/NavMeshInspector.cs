@@ -13,6 +13,7 @@ public class NavMeshInspector : EditorWindow
         GetWindow<NavMeshInspector>("NavMesh Soi");
     }
 
+    [System.Obsolete]
     void OnGUI()
     {
         GUILayout.Label("DANH SÁCH TOÀN BỘ AGENT TRONG SCENE", EditorStyles.boldLabel);

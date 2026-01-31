@@ -42,7 +42,7 @@ public class EnemyBaseFSM : MonoBehaviour
     protected Animator anim;
 
     public EnemyState currentState;
-
+    public static bool IsGlobalFrozen = false;
     protected virtual void Awake()
     {
         agent = GetComponent<NavMeshAgent>();
@@ -101,6 +101,17 @@ public class EnemyBaseFSM : MonoBehaviour
     }
     protected virtual void Update()
     {
+        // --- [THÊM] KIỂM TRA ĐÓNG BĂNG ---
+        // Nếu đang bị đóng băng -> Dừng mọi suy nghĩ, đứng im tại chỗ
+        if (IsGlobalFrozen)
+        {
+            if (agent != null && agent.enabled) agent.isStopped = true; // Dừng chân
+            return; // Thoát hàm Update ngay, không tính toán gì nữa
+        }
+        else
+        {
+            if (agent != null && agent.enabled) agent.isStopped = false; // Đi tiếp
+        }
         if (target == null || currentState == EnemyState.Die) return;
 
         // [ĐÃ BỎ] Logic Flip theo yêu cầu
