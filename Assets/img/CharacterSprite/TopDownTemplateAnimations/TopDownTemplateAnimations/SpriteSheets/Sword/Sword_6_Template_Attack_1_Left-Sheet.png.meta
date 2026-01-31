@@ -70,7 +70,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -142,6 +142,32 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -149,12 +175,12 @@ TextureImporter:
       name: Sword_6_Template_Attack_1_Left-Sheet_0
       rect:
         serializedVersion: 2
-        x: 57
-        y: 52
-        width: 15
-        height: 24
+        x: 0
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -171,12 +197,12 @@ TextureImporter:
       name: Sword_6_Template_Attack_1_Left-Sheet_1
       rect:
         serializedVersion: 2
-        x: 184
-        y: 52
-        width: 14
-        height: 24
+        x: 128
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -193,12 +219,12 @@ TextureImporter:
       name: Sword_6_Template_Attack_1_Left-Sheet_2
       rect:
         serializedVersion: 2
-        x: 312
-        y: 48
-        width: 17
-        height: 27
+        x: 256
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -215,12 +241,12 @@ TextureImporter:
       name: Sword_6_Template_Attack_1_Left-Sheet_3
       rect:
         serializedVersion: 2
-        x: 439
-        y: 41
-        width: 13
-        height: 31
+        x: 384
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -237,12 +263,12 @@ TextureImporter:
       name: Sword_6_Template_Attack_1_Left-Sheet_4
       rect:
         serializedVersion: 2
-        x: 538
-        y: 31
-        width: 39
-        height: 58
+        x: 512
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -259,12 +285,12 @@ TextureImporter:
       name: Sword_6_Template_Attack_1_Left-Sheet_5
       rect:
         serializedVersion: 2
-        x: 566
-        y: 52
-        width: 16
-        height: 38
+        x: 640
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -281,12 +307,12 @@ TextureImporter:
       name: Sword_6_Template_Attack_1_Left-Sheet_6
       rect:
         serializedVersion: 2
-        x: 666
-        y: 32
-        width: 29
-        height: 57
+        x: 768
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -303,12 +329,12 @@ TextureImporter:
       name: Sword_6_Template_Attack_1_Left-Sheet_7
       rect:
         serializedVersion: 2
-        x: 698
-        y: 52
-        width: 11
-        height: 38
+        x: 896
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -321,99 +347,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: Sword_6_Template_Attack_1_Left-Sheet_8
-      rect:
-        serializedVersion: 2
-        x: 794
-        y: 39
-        width: 28
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2127cbf83d6597410800000000000000
-      internalID: 1475305819590128146
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sword_6_Template_Attack_1_Left-Sheet_9
-      rect:
-        serializedVersion: 2
-        x: 825
-        y: 52
-        width: 12
-        height: 38
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: aa7d9bd46d45b4d80800000000000000
-      internalID: -8265419411704653910
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sword_6_Template_Attack_1_Left-Sheet_10
-      rect:
-        serializedVersion: 2
-        x: 922
-        y: 61
-        width: 25
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4ad2d50854cd22570800000000000000
-      internalID: 8440550842710175140
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sword_6_Template_Attack_1_Left-Sheet_11
-      rect:
-        serializedVersion: 2
-        x: 953
-        y: 52
-        width: 12
-        height: 39
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9a54f33a538e4e190800000000000000
-      internalID: -7933961326450227799
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: b4143e829cbbe4921833e750d76572c1
     internalID: 0
     vertices: []
     indices: 
@@ -421,20 +359,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":8.0,"y":1.0},"gridSpriteSize":{"x":128.0,"y":128.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Sword_6_Template_Attack_1_Left-Sheet_0: -92279463394620118
       Sword_6_Template_Attack_1_Left-Sheet_1: -8670575413604442581
-      Sword_6_Template_Attack_1_Left-Sheet_10: 8440550842710175140
-      Sword_6_Template_Attack_1_Left-Sheet_11: -7933961326450227799
       Sword_6_Template_Attack_1_Left-Sheet_2: -5952120574140504136
       Sword_6_Template_Attack_1_Left-Sheet_3: -3583377324258461136
       Sword_6_Template_Attack_1_Left-Sheet_4: 2868870909360949136
       Sword_6_Template_Attack_1_Left-Sheet_5: 4470020735205453892
       Sword_6_Template_Attack_1_Left-Sheet_6: 2958573724620361339
       Sword_6_Template_Attack_1_Left-Sheet_7: -567344027917211238
-      Sword_6_Template_Attack_1_Left-Sheet_8: 1475305819590128146
-      Sword_6_Template_Attack_1_Left-Sheet_9: -8265419411704653910
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
