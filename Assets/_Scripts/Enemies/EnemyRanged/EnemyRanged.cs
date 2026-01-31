@@ -24,6 +24,30 @@ public class EnemyRanged : EnemyBaseFSM
 
     protected override void LogicChase()
     {
+        // --- ĐOẠN CODE "MÁY DÒ LỖI" ---
+        if (agent == null)
+        {
+            Debug.LogError($"❌ LỖI: Thằng '{gameObject.name}' bị mất NavMeshAgent!", gameObject);
+            return;
+        }
+
+        if (!agent.isOnNavMesh)
+        {
+            // gameObject ở tham số thứ 2 giúp đồng chí bấm vào log là nó trỏ ngay đến vật thể đó
+            Debug.LogError($"🚨 BẮT ĐƯỢC RỒI: Thằng '{gameObject.name}' đang đứng ở tọa độ {transform.position} nhưng KHÔNG chạn vào NavMesh!", gameObject);
+            return;
+        }
+
+        if (!agent.isActiveAndEnabled)
+        {
+            Debug.LogError($"💤 LỖI: Thằng '{gameObject.name}' có Agent nhưng đang bị Disable!", gameObject);
+            return;
+        }
+        // -----------------------------
+
+        // Code cũ
+       // agent.SetDestination(target.position);
+
         if (target == null) return; // Fix null reference
 
         // Check ngụy trang (giữ nguyên logic cũ của đồng chí)
@@ -61,7 +85,7 @@ public class EnemyRanged : EnemyBaseFSM
         {
             //if(showDebugLogs) Debug.Log($"🔫 {name}: Hết Cooldown -> BẮN!");
 
-            if (anim != null) anim.SetTrigger("Attack");
+            //if (anim != null) anim.SetTrigger("Attack");
 
             SpawnBulletFromPool();
 

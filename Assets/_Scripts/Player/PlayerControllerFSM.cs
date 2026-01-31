@@ -60,7 +60,7 @@ public class PlayerControllerFSM : MonoBehaviour
     {
         if (currentState == State.Die || currentState == State.Attack)
         {
-            rb.linearVelocity = Vector2.zero;
+            rb.linearVelocity = Vector2.zero; // Unity 6 (nếu dùng bản cũ thì đổi thành velocity)
             return;
         }
 
@@ -70,7 +70,7 @@ public class PlayerControllerFSM : MonoBehaviour
             rb.linearVelocity = Vector2.zero;
     }
 
-    // --- HÀM XỬ LÝ INPUT THÔNG MINH (THAY THẾ GETAXISRAW) ---
+    // --- HÀM XỬ LÝ INPUT DI CHUYỂN THÔNG MINH ---
     Vector2 GetPriorityInput()
     {
         // 1. Ghi lại thời điểm bấm phím
@@ -84,11 +84,11 @@ public class PlayerControllerFSM : MonoBehaviour
         bool holdLeft = Input.GetKey(KeyCode.A);
         bool holdRight = Input.GetKey(KeyCode.D);
 
-        if (holdLeft && !holdRight) x = -1f;      // Chỉ giữ Trái
-        else if (!holdLeft && holdRight) x = 1f;  // Chỉ giữ Phải
-        else if (holdLeft && holdRight)           // Giữ cả hai -> So sánh thời gian
+        if (holdLeft && !holdRight) x = -1f;
+        else if (!holdLeft && holdRight) x = 1f;
+        else if (holdLeft && holdRight)
         {
-            x = (lastTimeLeft > lastTimeRight) ? -1f : 1f; // Cái nào bấm sau thì thời gian lớn hơn -> Thắng
+            x = (lastTimeLeft > lastTimeRight) ? -1f : 1f;
         }
 
         // 3. Tính trục Y (Lên/Xuống)
@@ -103,7 +103,6 @@ public class PlayerControllerFSM : MonoBehaviour
             y = (lastTimeDown > lastTimeUp) ? -1f : 1f;
         }
 
-        // Trả về vector đã chuẩn hóa
         return new Vector2(x, y).normalized;
     }
 
@@ -118,6 +117,7 @@ public class PlayerControllerFSM : MonoBehaviour
                 }
                 else if (CheckAttackInput())
                 {
+                    // Đã xử lý trong hàm CheckAttackInput
                 }
                 break;
 
@@ -128,6 +128,7 @@ public class PlayerControllerFSM : MonoBehaviour
                 }
                 else if (CheckAttackInput())
                 {
+                    // Đã xử lý trong hàm CheckAttackInput
                 }
                 break;
 
@@ -138,14 +139,27 @@ public class PlayerControllerFSM : MonoBehaviour
         }
     }
 
+    // --- HÀM KIỂM TRA TẤN CÔNG (ĐÃ HỒI PHỤC LOGIC CẦM KIẾM + CHUỘT PHẢI) ---
     bool CheckAttackInput()
     {
-        // CHỈNH LẠI PHÍM J ĐỂ ĐÁNH (Space đã xóa)
-        if (Input.GetButtonDown("Fire1") || Input.GetKeyDown(KeyCode.J))
+        // 1. CHỈ NHẬN CHUỘT PHẢI (0=Trái, 1=Phải, 2=Giữa)
+        // (Đồng chí muốn chuột phải thì dùng số 1)
+        if (Input.GetMouseButtonDown(0))
         {
-            if (weaponManager != null) weaponManager.Attack();
-            ChangeState(State.Attack);
-            return true;
+            // 2. KIỂM TRA RÀNG BUỘC: CÓ CẦM KIẾM KHÔNG?
+            if (weaponManager != null && weaponManager.HasWeapon())
+            {
+                // Thỏa mãn cả 2 điều kiện -> CHO PHÉP ĐÁNH
+                weaponManager.Attack();
+                ChangeState(State.Attack);
+                return true;
+            }
+            else
+            {
+                // Nếu bấm chuột phải mà chưa cầm kiếm
+                Debug.Log("🚫 Chưa cầm kiếm! Bấm phím 1 để rút kiếm trước đi!");
+                return false;
+            }
         }
         return false;
     }

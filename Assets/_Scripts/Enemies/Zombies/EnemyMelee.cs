@@ -11,7 +11,7 @@ public class EnemyMelee : EnemyBaseFSM
         if (Time.time > lastAttackTime + attackCooldown)
         {
             // TẤN CÔNG
-            if (anim != null) anim.SetTrigger("Attack");
+            //if (anim != null) anim.SetTrigger("Attack");
 
             // TODO: Trừ máu Player thật ở đây
             // target.GetComponent<PlayerHealth>()?.TakeDamage(damage);
