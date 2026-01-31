@@ -60,6 +60,19 @@ public class PlayerVisuals : MonoBehaviour
             animator.Play(newAnimName);
             currentAnimName = newAnimName;
         }
+        // Trong file PlayerVisuals.cs, hàm UpdateAnimationState:
+if (currentAnimName != newAnimName)
+{
+    // --> THÊM DÒNG NÀY ĐỂ SOI LỖI <--
+    // Kiểm tra xem Animator có chứa State này không (Mẹo debug nhanh)
+    if (!animator.HasState(0, Animator.StringToHash(newAnimName))) 
+    {
+        Debug.LogError($"❌ THIẾU STATE TRONG ANIMATOR: {newAnimName}");
+    }
+
+    animator.Play(newAnimName); // Dòng cũ
+    currentAnimName = newAnimName;
+}
     }
 
     string GetDirectionSuffix(Vector2 dir)
