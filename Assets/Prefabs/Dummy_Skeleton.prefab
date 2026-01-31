@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 4039408098821963503}
   - component: {fileID: 4314203998138872401}
   - component: {fileID: 8286919506609765611}
+  - component: {fileID: 3370565927074948073}
   m_Layer: 0
   m_Name: Dummy_Skeleton
   m_TagString: Enemy
@@ -83,10 +84,10 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 1917465887
-  m_SortingLayer: -2
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Sprite: {fileID: -1010515265, guid: 2668697d5c1ea4b85808f10e6e43b255, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -212,6 +213,28 @@ MonoBehaviour:
   bulletPoolName: skeleton_bullet
   bulletDamage: 15
   bulletSpeed: 10
+--- !u!95 &3370565927074948073
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4020444270615175316}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: fbd7ed2bef027421e8ac957d8295c0dc, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &7181679243493897382
 GameObject:
   m_ObjectHideFlags: 0
