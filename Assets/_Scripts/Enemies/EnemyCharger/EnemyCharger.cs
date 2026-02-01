@@ -17,6 +17,35 @@ public class EnemyCharger : EnemyBaseFSM
         if (sr != null) originalColor = sr.color;
     }
 
+    // Trong file EnemyRanged.cs
+
+    protected override void Update()
+    {
+        // --- 1. CHỐT CHẶN TUYỆT ĐỐI ---
+        if (EnemyBaseFSM.IsGlobalFrozen)
+        {
+            // A. Dừng di chuyển
+            if (agent != null && agent.enabled) agent.isStopped = true;
+
+            // B. Cấm tấn công (Reset bộ đếm giờ tấn công)
+            //attackTimer = 0f;
+
+            // C. Ngắt Animation tấn công (nếu có) - Chuyển về Idle
+            // animator.Play("Idle"); // Bỏ comment dòng này nếu muốn nó đứng im phăng phắc
+
+            return; // ⛔ DỪNG NGAY! Cấm chạy bất kỳ dòng code nào bên dưới
+        }
+        else
+        {
+            // Xả băng thì mới cho đi lại
+            if (agent != null && agent.enabled) agent.isStopped = false;
+        }
+        // ---------------------------------
+
+        base.Update(); // Logic cũ chạy bình thường khi không đóng băng
+    }
+
+
     // --- HÀM QUAN TRỌNG NHẤT ĐỂ TRỊ BỆNH LIỆT ---
     public override void ResetSpecialAbility()
     {

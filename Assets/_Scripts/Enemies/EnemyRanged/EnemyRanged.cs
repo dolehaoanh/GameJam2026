@@ -12,6 +12,33 @@ public class EnemyRanged : EnemyBaseFSM
     public float bulletDamage = 15f;
     public float bulletSpeed = 10f;
 
+    // Trong file EnemyRanged.cs
+
+    protected override void Update()
+    {
+        // --- 1. CHỐT CHẶN TUYỆT ĐỐI ---
+        if (EnemyBaseFSM.IsGlobalFrozen)
+        {
+            // A. Dừng di chuyển
+            if (agent != null && agent.enabled) agent.isStopped = true;
+
+            // B. Cấm tấn công (Reset bộ đếm giờ tấn công)
+            //attackTimer = 0f;
+
+            // C. Ngắt Animation tấn công (nếu có) - Chuyển về Idle
+            // animator.Play("Idle"); // Bỏ comment dòng này nếu muốn nó đứng im phăng phắc
+
+            return; // ⛔ DỪNG NGAY! Cấm chạy bất kỳ dòng code nào bên dưới
+        }
+        else
+        {
+            // Xả băng thì mới cho đi lại
+            if (agent != null && agent.enabled) agent.isStopped = false;
+        }
+        // ---------------------------------
+
+        base.Update(); // Logic cũ chạy bình thường khi không đóng băng
+    }
     protected override void Start()
     {
         base.Start();
@@ -24,6 +51,36 @@ public class EnemyRanged : EnemyBaseFSM
 
     protected override void LogicChase()
     {
+        // --- THÊM DÒNG NÀY ---
+        if (EnemyBaseFSM.IsGlobalFrozen) return; // Đóng băng thì đừng có set đường đi nữa!
+        // ---------------------
+
+        if (agent == null || !agent.isOnNavMesh || !agent.isActiveAndEnabled) return;
+        agent.SetDestination(target.position);
+        // --- ĐOẠN CODE "MÁY DÒ LỖI" ---
+        if (agent == null)
+        {
+            Debug.LogError($"❌ LỖI: Thằng '{gameObject.name}' bị mất NavMeshAgent!", gameObject);
+            return;
+        }
+
+        if (!agent.isOnNavMesh)
+        {
+            // gameObject ở tham số thứ 2 giúp đồng chí bấm vào log là nó trỏ ngay đến vật thể đó
+            Debug.LogError($"🚨 BẮT ĐƯỢC RỒI: Thằng '{gameObject.name}' đang đứng ở tọa độ {transform.position} nhưng KHÔNG chạn vào NavMesh!", gameObject);
+            return;
+        }
+
+        if (!agent.isActiveAndEnabled)
+        {
+            Debug.LogError($"💤 LỖI: Thằng '{gameObject.name}' có Agent nhưng đang bị Disable!", gameObject);
+            return;
+        }
+        // -----------------------------
+
+        // Code cũ
+       // agent.SetDestination(target.position);
+
         if (target == null) return; // Fix null reference
 
         // Check ngụy trang (giữ nguyên logic cũ của đồng chí)
@@ -61,7 +118,7 @@ public class EnemyRanged : EnemyBaseFSM
         {
             //if(showDebugLogs) Debug.Log($"🔫 {name}: Hết Cooldown -> BẮN!");
 
-            if (anim != null) anim.SetTrigger("Attack");
+            //if (anim != null) anim.SetTrigger("Attack");
 
             SpawnBulletFromPool();
 

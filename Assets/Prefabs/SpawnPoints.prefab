@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2816218600574446226}
   - component: {fileID: 7370042531230670673}
+  - component: {fileID: 2071718328104026004}
   m_Layer: 0
   m_Name: SpawnPoint_3
   m_TagString: Untagged
@@ -26,7 +27,7 @@ Transform:
   m_GameObject: {fileID: 2478866651799826356}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.786863, y: -5.2296824, z: 0}
+  m_LocalPosition: {x: 10.03, y: 0, z: 2.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -46,6 +47,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SpawnPointVisualizer
   debugColor: {r: 0, g: 1, b: 1, a: 1}
   radius: 0.5
+--- !u!114 &2071718328104026004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2478866651799826356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9809bf1345abc5648af68b3a82653f08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: NavMeshPlus::NavMeshPlus.Components.NavMeshModifier
+  m_OverrideArea: 1
+  m_Area: 0
+  m_IgnoreFromBuild: 0
+  m_AffectedAgents: ffffffff
 --- !u!1 &2865046760228569392
 GameObject:
   m_ObjectHideFlags: 0
@@ -56,6 +73,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5936150814205031984}
   - component: {fileID: 6278042256261323454}
+  - component: {fileID: 7582686521707531088}
   m_Layer: 0
   m_Name: SpawnPoint_1
   m_TagString: Untagged
@@ -72,7 +90,7 @@ Transform:
   m_GameObject: {fileID: 2865046760228569392}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.4060315, y: 3.9368725, z: 0}
+  m_LocalPosition: {x: -3.24, y: 0, z: 12.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -91,7 +109,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SpawnPointVisualizer
   debugColor: {r: 0, g: 1, b: 1, a: 1}
-  radius: 0.5
+  radius: 0.67
+--- !u!114 &7582686521707531088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2865046760228569392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9809bf1345abc5648af68b3a82653f08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: NavMeshPlus::NavMeshPlus.Components.NavMeshModifier
+  m_OverrideArea: 1
+  m_Area: 0
+  m_IgnoreFromBuild: 0
+  m_AffectedAgents: ffffffff
 --- !u!1 &3489228557473807721
 GameObject:
   m_ObjectHideFlags: 0
@@ -102,6 +136,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3718071717226368672}
   - component: {fileID: 4890589507359982745}
+  - component: {fileID: 6608545797621635809}
   m_Layer: 0
   m_Name: SpawnPoint_2
   m_TagString: Untagged
@@ -118,7 +153,7 @@ Transform:
   m_GameObject: {fileID: 3489228557473807721}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.9399426, y: 3.3536305, z: 0}
+  m_LocalPosition: {x: -16.56, y: 0, z: 2.47}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -138,6 +173,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SpawnPointVisualizer
   debugColor: {r: 0, g: 1, b: 1, a: 1}
   radius: 0.5
+--- !u!114 &6608545797621635809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3489228557473807721}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9809bf1345abc5648af68b3a82653f08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: NavMeshPlus::NavMeshPlus.Components.NavMeshModifier
+  m_OverrideArea: 1
+  m_Area: 0
+  m_IgnoreFromBuild: 0
+  m_AffectedAgents: ffffffff
 --- !u!1 &4873707451890942727
 GameObject:
   m_ObjectHideFlags: 0
@@ -148,6 +199,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6524457158246414304}
   - component: {fileID: 8207425978802105649}
+  - component: {fileID: 2646610263183791143}
   m_Layer: 0
   m_Name: SpawnPoint_4
   m_TagString: Untagged
@@ -164,7 +216,7 @@ Transform:
   m_GameObject: {fileID: 4873707451890942727}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.53209, y: 7.713517, z: 0}
+  m_LocalPosition: {x: -3.32, y: 0, z: -7.34}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -184,6 +236,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SpawnPointVisualizer
   debugColor: {r: 0, g: 1, b: 1, a: 1}
   radius: 0.5
+--- !u!114 &2646610263183791143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4873707451890942727}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9809bf1345abc5648af68b3a82653f08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: NavMeshPlus::NavMeshPlus.Components.NavMeshModifier
+  m_OverrideArea: 1
+  m_Area: 0
+  m_IgnoreFromBuild: 0
+  m_AffectedAgents: ffffffff
 --- !u!1 &5969035873931263098
 GameObject:
   m_ObjectHideFlags: 0
@@ -194,6 +262,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1650756427143429655}
   - component: {fileID: 1301844322117248279}
+  - component: {fileID: 1789979450882621203}
   m_Layer: 0
   m_Name: SpawnPoints
   m_TagString: Untagged
@@ -241,26 +310,42 @@ MonoBehaviour:
   - {fileID: 4943174988852257969}
   waves:
   - waveName: 1
-    zombieCount: 3
-    skeletonCount: 3
-    chargerCount: 3
+    zombieCount: 1
+    skeletonCount: 1
+    chargerCount: 1
     timeBetweenSpawns: 3
   - waveName: 2
-    zombieCount: 3
-    skeletonCount: 3
-    chargerCount: 3
+    zombieCount: 1
+    skeletonCount: 1
+    chargerCount: 1
     timeBetweenSpawns: 3
   - waveName: 3
-    zombieCount: 3
-    skeletonCount: 3
-    chargerCount: 3
+    zombieCount: 1
+    skeletonCount: 1
+    chargerCount: 1
     timeBetweenSpawns: 3
   - waveName: 4
-    zombieCount: 3
-    skeletonCount: 3
-    chargerCount: 3
+    zombieCount: 1
+    skeletonCount: 1
+    chargerCount: 1
     timeBetweenSpawns: 3
   timeBetweenWaves: 5
+--- !u!114 &1789979450882621203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5969035873931263098}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9809bf1345abc5648af68b3a82653f08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: NavMeshPlus::NavMeshPlus.Components.NavMeshModifier
+  m_OverrideArea: 1
+  m_Area: 0
+  m_IgnoreFromBuild: 0
+  m_AffectedAgents: ffffffff
 --- !u!1 &7276528782522478632
 GameObject:
   m_ObjectHideFlags: 0
@@ -271,6 +356,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4943174988852257969}
   - component: {fileID: 7387481845831503441}
+  - component: {fileID: 1036549259160120456}
   m_Layer: 0
   m_Name: SpawnPoint_5
   m_TagString: Untagged
@@ -287,7 +373,7 @@ Transform:
   m_GameObject: {fileID: 7276528782522478632}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.168229, y: 2.4667454, z: 0}
+  m_LocalPosition: {x: -3.66, y: 0, z: 3.71}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -307,3 +393,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SpawnPointVisualizer
   debugColor: {r: 0, g: 1, b: 1, a: 1}
   radius: 0.5
+--- !u!114 &1036549259160120456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7276528782522478632}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9809bf1345abc5648af68b3a82653f08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: NavMeshPlus::NavMeshPlus.Components.NavMeshModifier
+  m_OverrideArea: 1
+  m_Area: 0
+  m_IgnoreFromBuild: 0
+  m_AffectedAgents: ffffffff
